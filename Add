@@ -1,0 +1,10 @@
+from operator import indexOf
+
+
+a=10
+b=20
+print("Resultant Is",a+b)
+# User Input
+c=int(input("enter The number"))
+d=int(input("enter The Second No"))
+print("Resultant Is ", c+d)

@@ -1,0 +1,6 @@
+#Program to Check Program is palindrome
+a=input("Enter The String\n")
+if a==a[::-1]:
+    print("This Is Palindrome\n")
+else:
+    print("This is Not pakindrome string")

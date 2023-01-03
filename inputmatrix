@@ -1,0 +1,33 @@
+# Matrix Of Addition
+import numpy as np
+r1,c1=map(int,input("Enter The Shape").split('x'))
+
+m1=eval(str([[0]*c1]*r1))
+for i in range(r1):
+    for j in range(c1):
+        m1[i][j]=int(input(f'Enter The Element {i+1}*{j+1}'))
+
+
+r2,c2=map(int,input("Enter The Shape").split('x'))
+
+m2=eval(str([[0]*c2]*r2))
+for i in range(r1):
+    for j in range(c1):
+        m1[i][j]=int(input(f'Enter The Element {i+1}*{j+1}'))
+
+
+
+
+arr1=np.array(m1)
+arr2=np.array(m2)
+
+if arr1.shape==arr2.shape:
+    out=np.add(arr1,arr2)
+    print("Matrx1")
+    print(arr1)
+    print('Matrix2')
+    print(arr2)
+    print('Multiplication')
+    print(out)
+else:
+    print("Shape Is Not Valid")

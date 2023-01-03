@@ -1,0 +1,4 @@
+p=float(input("Enter The principal value\n"))
+r=float(input("Enter Enter the rate\n"))
+t=float(input("Enter the time period\n"))
+print("Simple Intrest Is", p*1+r/100**t-p)

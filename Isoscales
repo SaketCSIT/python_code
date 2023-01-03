@@ -1,0 +1,13 @@
+from tkinter import Button
+
+
+a=int(input("Enter The First Side"))
+b=int(input("Enter The Second Side"))
+c=int(input("Enter The Third Side"))
+
+if a==b and b==c and c==a: 
+    print("Equilateral")
+elif a==b or b==c or c==a:
+    print("Isoscales") 
+else:
+    print("Scales")

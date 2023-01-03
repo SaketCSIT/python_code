@@ -1,0 +1,12 @@
+a_1=1
+a=int(input("Enter The Dimesnsion Side\n"))
+b=int(input("Enter The Dimension Side\n"))
+
+c=int(input("Enter The Dimension Tile\n"))
+d=int(input("Enter The Dimension Tile\n"))
+
+a_1=a*b
+
+ 
+a_2=a_1*c*d
+print("Tiles Placed" ,a_2)

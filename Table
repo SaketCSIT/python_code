@@ -1,0 +1,5 @@
+num=int(input("Enter The Number\n"))
+s=int(input("Which Digit Do you Want\n"))
+for x in range(1,s):
+    print("Table is",num,"*",x,"=",num*x)
+
